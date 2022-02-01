@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Moon Dance";
+    src: url(fonts/Moon_Dance/MoonDance-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url("fonts/background.jpg");
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo-header {
+    font-family: 'Moon Dance', cursive;
+    font-size: 48px;
+}
+
+.global-contain {
+    background: white !important;
+    position: absolute;
+    box-shadow: -2px 2px 5px 5px #E0DDDD;
+    border-radius: 15px;
+    bottom: 50px;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+}
+
+.container-pages {
+    overflow: hidden;
+}
+
+.tabcontent {
+    background-color: #E0DDDD;
+    box-shadow: 5px -5px 5px #CDC9C9;
+    border-radius: 2px;
+    display: inline-block;
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.tablinks {
+    font-family: 'Oswald', cursive;
+    color: black !important;
+}
+
+.active {
+    font-weight: bold;
+}

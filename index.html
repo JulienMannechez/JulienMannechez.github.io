@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My web site</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap 5 css -->
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-5.0.2/dist/css/bootstrap.min.css">
+
+    <script src="index.js"></script>
+    <script src="lib/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap 5 JS -->
+    <script src="lib/bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- my global container -->
+    <section class="container global-contain">
+        <header>
+            <!-- Logo -->
+            <p class="text-center logo-header mt-1"><i>Julien Mannechez</i></p>
+            <!-- Logo -->
+            <hr>
+        </header>
+        <div class="row">
+            <!-- sidebar -->
+            <div class="col-2 sidebar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link tablinks active" data-ref="home">Accueil</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link tablinks" data-ref="work">Expériences professionnelles</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link tablinks" data-ref="training">Formations</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link tablinks" data-ref="portfolio">Portfolio</a>
+                    </li>
+                </ul>
+                <!-- sidebar -->
+            </div>
+            <div class="col-10 container-pages">
+                <!-- Home page -->
+                <div id="home" class="tabcontent row text-center mt-3">
+                    <div class="row">
+                        <div class="col-6 mt-3">
+                            <h2><i>Présentation</i></h2>
+                            <hr>
+                            <p>
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper finibus ornare. Integer finibus nulla in eros blandit, sit amet pellentesque enim ultrices. Suspendisse iaculis augue tincidunt diam consectetur, ac lobortis magna lobortis. Integer
+                                ac neque vel diam tincidunt rutrum. Morbi molestie, nunc et commodo imperdiet, lacus sapien blandit dui, cursus sodales orci lorem a arcu. Aenean quam tellus, varius nec mattis id, rutrum nec dui. Vestibulum sem elit, tempor
+                                non faucibus at, faucibus et nulla. Sed fringilla condimentum sapien, vitae faucibus nunc dignissim vitae. Duis sodales ligula dolor, id congue nisl congue id. Nunc convallis neque vitae nunc fermentum faucibus sed id nulla.
+                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ut dolor luctus sapien fringilla tincidunt eget semper libero. Nunc vel dapibus risus, sit amet luctus turpis. Nunc nunc justo, convallis at leo vitae,
+                                interdum egestas massa.
+                            </p>
+                            <p> Aliquam tincidunt ac orci ut facilisis. Suspendisse mattis euismod dapibus. Sed facilisis nibh quis lacinia pulvinar. Integer sagittis dolor elit, non condimentum nulla auctor vitae. Mauris lobortis justo quis finibus viverra.
+                                Maecenas molestie lacus felis. Vivamus vitae accumsan odio. Praesent sapien urna, commodo ut massa sed, vestibulum pellentesque libero. Quisque lacus ex, dapibus eget est scelerisque, laoreet tristique dolor. Duis arcu
+                                dolor, semper ullamcorper ligula aliquam, vestibulum varius lacus. Sed posuere mauris ut velit ornare, a varius sem accumsan. Praesent auctor ipsum in egestas tempor. Vestibulum vitae gravida arcu. Curabitur ut euismod
+                                mauris. Maecenas et ante a mi dictum viverra. Quisque vel condimentum risus. Vivamus euismod viverra porttitor. Maecenas et nulla dolor. Maecenas ultricies, tortor vel tristique rutrum, lacus leo tristique nunc, vel vehicula
+                                massa erat quis tortor. Nulla facilisi.
+                            </p>
+                            <p> Phasellus lobortis magna in justo pretium, sit amet malesuada libero aliquam. Fusce posuere tortor a tortor ornare tincidunt. Morbi diam arcu, cursus id velit in, tincidunt feugiat dui. Donec tempor neque et nulla pharetra,
+                                quis consequat magna imperdiet. Phasellus vestibulum mollis sagittis. Praesent euismod, sem ut iaculis rhoncus, neque urna facilisis neque, ac mollis mauris magna sit amet eros. Mauris velit erat, iaculis in suscipit in,
+                                faucibus a ante. Phasellus dolor orci, tempor eget condimentum ac, placerat sit amet nisl. Aliquam erat volutpat. Sed fringilla viverra tempor. Donec non faucibus felis. Pellentesque efficitur, libero eget porta gravida,
+                                ligula ex vulputate erat, vel condimentum nunc nisl id ipsum. Nam pretium diam egestas, varius libero in, volutpat purus. Morbi vehicula tortor ullamcorper, bibendum nibh vel, laoreet metus. Aliquam ac aliquam leo.
+                            </p>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <div class="text-center">
+                                <img src="fonts/user_img.jpg" class="rounded-circle" alt="image de profil" width="300" height="300">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Home page -->
+                </div>
+                <!-- Work experience page -->
+                <div id="work" class="tabcontent d-none row mt-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <h3><b>Développeur Informatique</b></h3>
+                            <h4><i>Orange Business Service, Lille France</i></h4>
+                            <p class="small">Alternance de 3 ans avec l'IMT Nord Europe et le Groupe Orange, où mes fonctions étaient : </p>
+                            <ul>
+                                <li>
+                                    L'automatisation de tâches redondantes avec des scripts.
+                                </li>
+                                <li>
+                                    Le développement web d'un ERP, centralisant les difféents SAV de France.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p>2019 - 2022</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-8">
+                            <h3><b>Développeur Web</b></h3>
+                            <h4><i>Mairie de Grand-Fort-Philippe, Grand-Fort-Philippe France</i></h4>
+                            <p class="small">Stage de 6 mois durant mon BTS SIO, où j'ai pu développer une interface web permettant une gestion totale des absences et des congés. En responsive-design pour une utilisation sur n'importe quel périphérique.</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p>2018 - 2019</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-8">
+                            <h3><b>Développeur Web</b></h3>
+                            <h4><i>Centre de formation, France</i></h4>
+                            <p class="small">Stage de 4 mois pendant ma première année du BTS SIO. Ma fonction était de développer un interfaçage web depuis une application et base de données Microsoft Access.</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p>2017 - 2018</p>
+                        </div>
+                    </div>
+                    <!-- work experience page -->
+                </div>
+                <!-- training page -->
+                <div id="training" class="tabcontent d-none row mt-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <h3><b>Ingénieur Informatique</b></h3>
+                            <h4><i>IMT Nord-Europe, Lille France</i></h4>
+                            <p class="small">Génie logiciel, données Web et API, méthodes et pratiques devops, mobile, Internet des objets, sécurité.</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p>2019 - 2022</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-8">
+                            <h3><b>Licence Informatique</b></h3>
+                            <h4><i>Université de Bretagne Occidentale, Brest France</i></h4>
+                            <p class="small">Architectures et matériels, systèmes, méthodes et technologies logicielles, applications informatiques, systèmes d'informations.</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p>2017 - 2019</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-8">
+                            <h3><b>BTS Service Informatique aux Organisations</b></h3>
+                            <h4><i>Lycée Jean-Bart, Dunkerque France</i></h4>
+                            <p class="small">L'option SLAM du BTS forme des développeurs d'applications à être capables :</p>
+                            <ul>
+                                <li>
+                                    D'être à l'écoute de leurs interlocuteurs (utilisateurs et informaticiens),
+                                </li>
+                                <li>
+                                    De développer des applications correspondant aux besoins utilisateur,
+                                </li>
+                                <li>
+                                    De s'adapter aux nouvelles technologies.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p>2015 - 2017</p>
+                        </div>
+                    </div>
+                    <!-- training page -->
+                </div>
+                <!-- Portfolio -->
+                <div id="portfolio" class="tabcontent d-none row mt-3">
+                    <div class="row">
+                        <div class="col p-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">OCAP</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">PHP Symfony 4.4</li>
+                                    <li class="list-group-item">SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col p-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coco, coin counter</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Flutter</li>
+                                    <li class="list-group-item">Firebase</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio -->
+                </div>
+            </div>
+        </div>
+
+        <!-- my global container -->
+    </section>
+</body>
