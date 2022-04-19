@@ -11,6 +11,8 @@
     <script src="lib/jquery/3.6.0/jquery.min.js"></script>
     <!-- Bootstrap 5 JS -->
     <script src="lib/bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -52,29 +54,19 @@
                         <div class="col-6 mt-3">
                             <h2><i>Présentation</i></h2>
                             <hr>
-                            <p>
-
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper finibus ornare. Integer finibus nulla in eros blandit, sit amet pellentesque enim ultrices. Suspendisse iaculis augue tincidunt diam consectetur, ac lobortis magna lobortis. Integer
-                                ac neque vel diam tincidunt rutrum. Morbi molestie, nunc et commodo imperdiet, lacus sapien blandit dui, cursus sodales orci lorem a arcu. Aenean quam tellus, varius nec mattis id, rutrum nec dui. Vestibulum sem elit, tempor
-                                non faucibus at, faucibus et nulla. Sed fringilla condimentum sapien, vitae faucibus nunc dignissim vitae. Duis sodales ligula dolor, id congue nisl congue id. Nunc convallis neque vitae nunc fermentum faucibus sed id nulla.
-                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ut dolor luctus sapien fringilla tincidunt eget semper libero. Nunc vel dapibus risus, sit amet luctus turpis. Nunc nunc justo, convallis at leo vitae,
-                                interdum egestas massa.
-                            </p>
-                            <p> Aliquam tincidunt ac orci ut facilisis. Suspendisse mattis euismod dapibus. Sed facilisis nibh quis lacinia pulvinar. Integer sagittis dolor elit, non condimentum nulla auctor vitae. Mauris lobortis justo quis finibus viverra.
-                                Maecenas molestie lacus felis. Vivamus vitae accumsan odio. Praesent sapien urna, commodo ut massa sed, vestibulum pellentesque libero. Quisque lacus ex, dapibus eget est scelerisque, laoreet tristique dolor. Duis arcu
-                                dolor, semper ullamcorper ligula aliquam, vestibulum varius lacus. Sed posuere mauris ut velit ornare, a varius sem accumsan. Praesent auctor ipsum in egestas tempor. Vestibulum vitae gravida arcu. Curabitur ut euismod
-                                mauris. Maecenas et ante a mi dictum viverra. Quisque vel condimentum risus. Vivamus euismod viverra porttitor. Maecenas et nulla dolor. Maecenas ultricies, tortor vel tristique rutrum, lacus leo tristique nunc, vel vehicula
-                                massa erat quis tortor. Nulla facilisi.
-                            </p>
-                            <p> Phasellus lobortis magna in justo pretium, sit amet malesuada libero aliquam. Fusce posuere tortor a tortor ornare tincidunt. Morbi diam arcu, cursus id velit in, tincidunt feugiat dui. Donec tempor neque et nulla pharetra,
-                                quis consequat magna imperdiet. Phasellus vestibulum mollis sagittis. Praesent euismod, sem ut iaculis rhoncus, neque urna facilisis neque, ac mollis mauris magna sit amet eros. Mauris velit erat, iaculis in suscipit in,
-                                faucibus a ante. Phasellus dolor orci, tempor eget condimentum ac, placerat sit amet nisl. Aliquam erat volutpat. Sed fringilla viverra tempor. Donec non faucibus felis. Pellentesque efficitur, libero eget porta gravida,
-                                ligula ex vulputate erat, vel condimentum nunc nisl id ipsum. Nam pretium diam egestas, varius libero in, volutpat purus. Morbi vehicula tortor ullamcorper, bibendum nibh vel, laoreet metus. Aliquam ac aliquam leo.
-                            </p>
+                            <div align="justify">
+                                <p>
+                                    Passioné par les nouvelles technologies et ne demande qu'à en savoir plus dans le domaine du développement. Ainsi que l'informatique en général. Je suis actuellement à la recherche d'un emploi poursuivant mon alternance.
+                                </p>
+                                <p>
+                                    J'ai pu commencer à programmer mes premières pages web dès le Lycée. Depuis ce jour, j'ai su que je voulais continuer dans la technique et appronfondir mes compétences. J'ai eu la chance de travailler dans un grand groupe qu'est Orange, en tant que développeur
+                                    informatique, où j'ai pu développer plusieurs application web et des automatismes.
+                                </p>
+                            </div>
                         </div>
                         <div class="col-6 mt-3">
                             <div class="text-center">
-                                <img src="fonts/user_img.jpg" class="rounded-circle" alt="image de profil" width="300" height="300">
+                                <img src="assets/img/user_img.jpg" class="rounded-circle" alt="image de profil" width="300" height="300">
                             </div>
                         </div>
                     </div>
@@ -92,7 +84,10 @@
                                     L'automatisation de tâches redondantes avec des scripts.
                                 </li>
                                 <li>
-                                    Le développement web d'un ERP, centralisant les difféents SAV de France.
+                                    Le développement web d'un ERP, centralisant les différents SAV de France.
+                                </li>
+                                <li>
+                                    La gestion d'un projet dans le but du développement d'une application web, permettant aux clients SAV de OBS de s'auto diagnostiquer via des questionnaires.
                                 </li>
                             </ul>
                         </div>
@@ -176,29 +171,114 @@
                     <div class="row">
                         <div class="col p-2">
                             <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">OCAP</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                <!-- <img src="assets/img/adce_newTemplate.png" class="card-img-top p-2" alt="adce_newTemplate"> -->
+
+                                <div id="carousselADCE" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carousselADCE" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carousselADCE" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div>
+                                    <div class="carousel-inner" style="height: 200px!important;">
+                                        <div class="carousel-item active">
+                                            <img src="assets/img/adce_newTemplate.png" class="d-block w-100" alt="adce_new_template">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="assets/img/adce_showTemplate.png" class="d-block w-100" alt="adce_show_template">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousselADCE" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousselADCE" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">PHP Symfony 4.4</li>
-                                    <li class="list-group-item">SQL</li>
+                                <div class="card-body ">
+                                    <h5 class="card-title ">ADCE</h5>
+                                    <p class="card-text ">Développement d'une application web, permettant aux clients SAV de OBS de s'auto diagnostiquer via des questionnaires.</p>
+                                    <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item ">PHP Symfony 4.4</li>
+                                    <li class="list-group-item ">jQuery</li>
+                                    <li class="list-group-item ">SQL</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col p-2">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Coco, coin counter</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        <div class="col p-2 ">
+                            <div class="card " style="width: 18rem; ">
+
+                                <div id="carousselOCAP" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carousselOCAP" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carousselOCAP" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div>
+                                    <div class="carousel-inner" style="height: 200px!important;">
+                                        <div class="carousel-item active">
+                                            <img src="assets/img/ocap_home.png" class="d-block w-100" alt="ocap_home">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="assets/img/ocap_home.png" class="d-block w-100" alt="ocap_home">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousselOCAP" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousselOCAP" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Flutter</li>
-                                    <li class="list-group-item">Firebase</li>
+
+                                <div class="card-body ">
+                                    <h5 class="card-title ">OCAP</h5>
+                                    <p class="card-text ">Développement web d'un ERP, centralisant les différents SAV de France.</p>
+                                    <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item ">PHP Symfony 4.4</li>
+                                    <li class="list-group-item ">jQuery</li>
+                                    <li class="list-group-item ">SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col p-2 ">
+                            <div class="card " style="width: 18rem; ">
+
+                                <div id="carousselCOCO" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carousselCOCO" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carousselCOCO" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div>
+                                    <div class="carousel-inner" style="height: 200px!important;">
+                                        <div class="carousel-item active">
+                                            <img src="assets/img/ocap_home.png" class="d-block w-100" alt="ocap_home">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="assets/img/ocap_home.png" class="d-block w-100" alt="ocap_home">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousselCOCO" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousselCOCO" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
+                                <div class="card-body ">
+                                    <h5 class="card-title ">Coco, coin counter</h5>
+                                    <p class="card-text ">Application mobile permettant de prendre des photos pour compter le nombre de pièces de monaies via une requête au serveur Python et un réseau de neurones.</p>
+                                    <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item ">Flutter</li>
+                                    <li class="list-group-item ">Firebase</li>
                                 </ul>
                             </div>
                         </div>
